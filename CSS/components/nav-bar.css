@@ -1,3 +1,7 @@
 nav {
     display: flex;
 }
+
+div {
+    background-color: blue;
+}
