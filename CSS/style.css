@@ -4,8 +4,10 @@
 @import "screen/login.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "screen/friends.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
   height: 1000vh;
+  color: #2e363e;
 }

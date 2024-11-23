@@ -1,0 +1,24 @@
+#friends-display-link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 0px;
+  background-color: #fafafa;
+  font-size: 16px;
+}
+
+#friends-display-link > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#friends-display-link > svg {
+  inline-size: 20px;
+  margin-right: 5px;
+  color: rgba(0, 0, 0, 0.3);
+}
+#friends-display-link svg:last-child {
+  inline-size: 15px;
+  margin-left: 5px;
+}
