@@ -15,7 +15,30 @@
   text-align: center;
 }
 
+.nav__link {
+  position: relative;
+}
+
 .nav__link > svg {
   inline-size: 40%;
   color: #2e363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.screen-header__icons {
+  inline-size: 50%;
 }

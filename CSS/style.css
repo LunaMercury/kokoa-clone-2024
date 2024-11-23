@@ -3,6 +3,7 @@
 @import "components/status-bar.css";
 @import "screen/login.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
