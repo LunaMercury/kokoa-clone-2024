@@ -1,13 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap");
 @import "reset.css";
+@import "screen/variables.css";
+
+/*components*/
 @import "components/status-bar.css";
-@import "screen/login.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+
+/*screen*/
+@import "screen/login.css";
 @import "screen/friends.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
   height: 1000vh;
   color: #2e363e;
+}
+
+.size-small {
+  width: 60px;
+  height: 60px;
+}
+
+.size-medium {
+  width: 70px;
+  height: 70px;
+}
+
+.size-big {
+  width: 80px;
+  height: 80px;
 }

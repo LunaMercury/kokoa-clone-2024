@@ -4,13 +4,14 @@
   justify-content: center;
   margin: 15px 0px;
   background-color: #fafafa;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #friends-display-link > a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 #friends-display-link > svg {
@@ -21,4 +22,11 @@
 #friends-display-link svg:last-child {
   inline-size: 15px;
   margin-left: 5px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizental-space);
+}
+.friend-screen__channel-header > svg {
+  inline-size: 20px;
 }

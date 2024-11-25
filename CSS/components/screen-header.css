@@ -3,7 +3,7 @@
   justify-content: space-between;
   padding: 25px;
   align-items: center;
-  padding-top: 40px;
+  padding-top: var(--horizental-space);
 }
 .screen-header__icons {
   text-align: right;
