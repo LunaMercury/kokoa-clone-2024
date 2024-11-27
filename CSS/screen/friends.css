@@ -30,3 +30,15 @@
 .friend-screen__channel-header > svg {
   inline-size: 20px;
 }
+
+.friend-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 10px;
+}
+.friend-screen__channel-header {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}

@@ -17,7 +17,11 @@ body {
   height: 1000vh;
   color: #2e363e;
 }
+.main-screen {
+  padding: 0px var(--horizental-space);
+}
 
+/*size*/
 .size-small {
   width: 60px;
   height: 60px;

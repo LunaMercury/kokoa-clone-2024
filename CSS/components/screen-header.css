@@ -4,14 +4,15 @@
   padding: 25px;
   align-items: center;
   padding-top: var(--horizental-space);
+  margin-bottom: 15px;
 }
 .screen-header__icons {
   text-align: right;
+  inline-size: 50%;
 }
 .screen-header__icons > span {
   margin: 0px 5px;
 }
-
 .screen-header__title {
   font-size: 28px;
   font-weight: 600;
