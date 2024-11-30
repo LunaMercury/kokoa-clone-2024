@@ -2,17 +2,21 @@
   display: flex;
   justify-content: space-between;
 }
+.user-component__column {
+  display: flex;
+}
 .user-component,
 .user-component__column:first-child {
-  display: flex;
   align-items: center;
   margin-top: 10px;
 }
 .user-component__column:last-child {
-  display: flex;
   align-items: center;
   text-align: right;
-  color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .user-component__column:last-child svg {
   inline-size: 20px;
@@ -33,4 +37,8 @@
 }
 .user-component__title--not-bold {
   font-weight: 400;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }

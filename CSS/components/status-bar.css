@@ -42,5 +42,6 @@
 }
 
 svg {
-  inline-size: 10%;
+  inline-size: 30px;
+  position: relative;
 }

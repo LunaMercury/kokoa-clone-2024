@@ -7,10 +7,12 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
@@ -26,13 +28,18 @@ body {
   width: 60px;
   height: 60px;
 }
-
 .size-medium {
   width: 70px;
   height: 70px;
 }
-
 .size-big {
   width: 80px;
   height: 80px;
+}
+
+.icon-size__30px {
+  inline-size: 30px;
+}
+.icon-size__20px {
+  inline-size: 20px;
 }
