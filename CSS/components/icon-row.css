@@ -4,9 +4,12 @@
   padding-bottom: 25px;
 }
 .icon-row__icon {
+  width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 15px;
+  text-align: center;
 }
 .icon-row__icon svg {
   inline-size: 50px;

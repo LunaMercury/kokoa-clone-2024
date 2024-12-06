@@ -1,11 +1,38 @@
 .more-screen .icon-row {
-  margin: 35px 0px;
+  margin: 25px 0px;
+  flex-wrap: wrap;
+}
+.icon-row__icon {
+  margin: 10px;
 }
 .more-suggestions {
-  margin: 35px 0px;
+  margin: 25px 0px;
   border-top: var(--main-border);
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .more-suggestions__title {
   margin-bottom: 20px;
+}
+.more-suggestion__icons {
+  display: flex;
+}
+.more-suggestion__icon {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestion__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.more-suggestion__icon-image svg {
+  inline-size: 36px;
+  color: white;
 }

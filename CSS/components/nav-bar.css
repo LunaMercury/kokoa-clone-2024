@@ -8,6 +8,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
+  z-index: 8;
 }
 .nav__list {
   display: flex;

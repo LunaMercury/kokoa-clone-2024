@@ -9,16 +9,19 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chatroom.css";
 
 body {
   font-family: "Noto Sans", sans-serif;
-  height: 1000vh;
+  height: 100vh;
   color: #2e363e;
 }
 .main-screen {
