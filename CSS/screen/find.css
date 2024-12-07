@@ -1,3 +1,7 @@
+#find {
+  padding-bottom: 170px;
+}
+
 /*recommended-friends*/
 .recommended-friends {
   border-top: var(--main-border);
@@ -89,4 +93,18 @@
   bottom: 10px;
   right: 10px;
   font-size: 14px;
+}
+.open-post__heart-count:hover {
+  will-change: transform;
+  animation: heart-count-beat 1s linear infinite;
+}
+@keyframes heart-count-beat {
+  0% {
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  100% {
+  }
 }

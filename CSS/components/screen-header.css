@@ -15,6 +15,18 @@
 .screen-header__icons > span {
   margin: 0px 5px;
 }
+@keyframes gearspin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+.screen-header__icons > span:last-child > svg:hover,
+.screen-header__icons > span:last-child > a > svg:hover {
+  animation: gearspin 1s linear infinite;
+}
 .screen-header__title {
   font-size: 28px;
   font-weight: 600;
